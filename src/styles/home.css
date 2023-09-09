@@ -35,3 +35,15 @@
     animation-fill-mode: forwards;
 }
 
+#collectionName {
+    font-size: 10vw;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 450px) {
+    #collectionName {
+        font-size: 15vw;
+        font-weight: 600;
+    }
+}

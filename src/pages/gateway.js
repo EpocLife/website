@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Collection from '../components/Collection'; // assuming it's in the same directory
 import { Link } from 'react-router-dom';
+import '../styles/home.css';
 
 function Gateway() {
 
@@ -8,7 +9,7 @@ function Gateway() {
     return (
         <div className="d-block">
             <div className='tin'>
-                <h1 id='title'>--Gateway</h1>
+                <h1 id='collectionName'>--Gateway</h1>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                     <div className="m-3">
                         <Collection title={''} Content={'Feature that shows the timeline of humanity, where content can be viewed by others'} size={0} />

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Collection from '../components/Collection'; // assuming it's in the same directory
 import '../styles/home.css';
+
 import { Link } from 'react-router-dom';
 
 function Home() {

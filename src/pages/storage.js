@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Collection from '../components/Collection'; // assuming it's in the same directory
 import { Link } from 'react-router-dom';
+import '../styles/home.css';
 
 function Storage() {
 
@@ -8,7 +9,7 @@ function Storage() {
     return (
         <div className="d-block">
             <div className='tin'>
-                <h1 id='title'>./Storage</h1>
+                <h1 id='collectionName'>./Storage</h1>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                     <div className="m-3">
                         <Collection title={''} Content={'1. Decentralized. A way in which data can be distributed. Epoc aims to adopt this method.'} size={0} />
