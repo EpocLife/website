@@ -1,0 +1,102 @@
+.container {
+    border: 1px solid #000;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.title {
+    overflow: hidden;
+    width: 100%;
+    height: 24px;
+    border-bottom: 1px solid #000;
+}
+
+#titleText {
+    margin-left: 1vh;
+    font-size: 15px;
+}
+
+#content {
+    margin-top: -30px;
+    font-size: 200px;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+}
+
+#subContentS {
+    font-size: 35px;
+    margin: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#subContentM {
+    font-size: 50px;
+    margin: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#subContentL {
+    font-size: 70px;
+    margin: 10px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    display: grid;
+    place-items: center; 
+}
+
+#animatedVideo {
+    width: 150px;
+    height: auto;
+    margin-top: 75px;
+}
+
+#me {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 300px;
+        height: 192px;
+    }
+
+    .title {
+        height: 18px;
+    }
+
+    #titleText{
+        font-size: 13px;
+    }
+
+    #animatedVideo {
+        width: 93px;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    #content {
+        margin-top: -2px;
+        font-size: 100px;
+        font-weight: 800;
+        justify-content: center;
+        align-items: center;
+    }
+    #subContent {
+        font-size: 17px;
+    }
+}
