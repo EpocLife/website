@@ -11,7 +11,7 @@ function WhoAreWe() {
                 <h1 id='collectionName'>?Who Are We?</h1>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                     <div className="m-3">
-                        <Collection title={''} Content={`Epoc is a creative platform of shared consciousness without the burden of time.`} size={0} />
+                        <Collection title={''} Content={`Epoc is a creative platform for sharing consciousness without the burden of time.`} size={0} />
                     </div>
                     <div className="m-3">
                         <Collection title={''} Content={`imageMe`} />

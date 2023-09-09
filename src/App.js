@@ -1,6 +1,6 @@
 import './styles/App.css';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 import Explanation from './pages/explanation';
 import About from './pages/about';
@@ -16,7 +16,7 @@ import Verification from './pages/verification';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route exact path="/explanation" element={<Explanation />} />
@@ -30,7 +30,7 @@ function App() {
       <Route exact path="/explanation/features/gateway" element={<Gateway />} />
       <Route exact path="/explanation/features/verification" element={<Verification />} />
     </Routes>
-  </Router>
+  </HashRouter>
   );
 }
 
