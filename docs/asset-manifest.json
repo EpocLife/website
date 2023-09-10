@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d18157cb.css",
-    "main.js": "/static/js/main.6d71adcd.js",
-    "static/js/787.7332c52a.chunk.js": "/static/js/787.7332c52a.chunk.js",
-    "static/media/epocLoad.mp4": "/static/media/epocLoad.43e4fbf2e79b254c911f.mp4",
-    "static/media/imageMe.jpeg": "/static/media/imageMe.3b7d4ae91da9b02adbe1.jpeg",
-    "index.html": "/index.html",
-    "main.d18157cb.css.map": "/static/css/main.d18157cb.css.map",
-    "main.6d71adcd.js.map": "/static/js/main.6d71adcd.js.map",
-    "787.7332c52a.chunk.js.map": "/static/js/787.7332c52a.chunk.js.map"
+    "main.css": "/EpocLife/website.git/static/css/main.d18157cb.css",
+    "main.js": "/EpocLife/website.git/static/js/main.f6cc0cb0.js",
+    "static/js/787.7332c52a.chunk.js": "/EpocLife/website.git/static/js/787.7332c52a.chunk.js",
+    "static/media/epocLoad.mp4": "/EpocLife/website.git/static/media/epocLoad.43e4fbf2e79b254c911f.mp4",
+    "static/media/imageMe.jpeg": "/EpocLife/website.git/static/media/imageMe.3b7d4ae91da9b02adbe1.jpeg",
+    "index.html": "/EpocLife/website.git/index.html",
+    "main.d18157cb.css.map": "/EpocLife/website.git/static/css/main.d18157cb.css.map",
+    "main.f6cc0cb0.js.map": "/EpocLife/website.git/static/js/main.f6cc0cb0.js.map",
+    "787.7332c52a.chunk.js.map": "/EpocLife/website.git/static/js/787.7332c52a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d18157cb.css",
-    "static/js/main.6d71adcd.js"
+    "static/js/main.f6cc0cb0.js"
   ]
 }
