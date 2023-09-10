@@ -12,28 +12,31 @@ function Mediums() {
                 <h1 id='collectionName'>{`>Mediums`}</h1>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                 <div className="m-3">
-                        <Collection title={''} Content={`Colletion - Allows users to categorise and Abstarct events and Content.`} size={0}/>
+                        <Collection title={''} Content={`Colletion - Allows users to categorise and abstarct experiences and content.`} size={0}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`Image - Visual content type which captures an instant in time.`} size={0}/>
+                        <Collection title={''} Content={`Image - Captures an experience in a single frame.`} size={0}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`Video - Visual content type which captures an array of intances in time.`} size={0}/>
+                        <Collection title={''} Content={`Video - Captures an experience in multiple frames.`} size={0}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`Text - A mewdium for communication via symbolic representation.`} size={0}/>
+                        <Collection title={''} Content={`Text - A medium for communication via symbolic representation.`} size={0}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`Sound - Audible Content type which captures sounds.`} size={0}/>
+                        <Collection title={''} Content={`Time`} size={2}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`3D Model - Visual content type which captures events in the same dimensions we do `} size={0}/>
+                        <Collection title={''} Content={`Sound - Captures an experience in wave form.`} size={0}/>
+                    </div>
+                    <div className="m-3">
+                        <Collection title={''} Content={`3D Model - Captures experiences in the same dimensions we perceive.`} size={0}/>
                     </div>
                     <div className="m-3">
                         <Collection title={''} Content={`file - Any other digital representaion of data, i.e. pdf file, code, etc...`} size={0}/>
                     </div>
                     <div className="m-3">
-                        <Collection title={''} Content={`Web Link - A connection to an external website.`} size={0}/>
+                        <Collection title={''} Content={`Web Link - Link to an external website/source.`} size={0}/>
                     </div>
                 </div>
 
