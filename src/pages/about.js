@@ -16,7 +16,7 @@ function About() {
                         </div>
                     </Link>
                     <div className="m-3">
-                        <Collection title={''} Content={`Preserving Conciouness`} size={1}/>
+                        <Collection title={''} Content={`Preserving the works of consciousness`} size={1}/>
                     </div>
                     <Link to="/explanation/about/contact" className="nav-link active" style={{ textDecoration: '' }}>
                         <div className="m-3">

@@ -9,7 +9,7 @@ function Explanation() {
         <div className="d-block">
             <div className='tin'>
                 <h1 id='title'>Epoc</h1>
-                <h3 id='subTitle'>A collective archive of humanity's consciousness</h3>
+                <h3 id='subTitle'>A collective archive of humanity's creations, preserving stories and legacy's.</h3>
                 <div className='d-flex flex-row flex-wrap justify-content-center'>
                 <Link to="/explanation/about" className="nav-link active" style={{ textDecoration: '' }}>
                     <div className="m-3">
