@@ -19,10 +19,14 @@ function Home() {
 
     return (
         <div className='linkContainer'>
-            <Link to="/explanation" className="nav-link active " style={{ textDecoration: '' }}>
+            <Link to="/explanation" className="nav-link active " style={{ textDecoration: '', marginBottom: 50 }}>
                 <Collection title={'Epoc'} Content={'home'} />
             </Link>
+            <div style={{textAlign: 'center'}}>
+                <h2>Expected Launch: 01/12/2023</h2>
+            </div>
         </div>
+
     );
 }
 
