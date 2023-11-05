@@ -23,7 +23,7 @@ function Home() {
                 <Collection title={'Epoc'} Content={'home'} />
             </Link>
             <div style={{textAlign: 'center'}}>
-                <h2>Expected Launch: 01/11/2023</h2>
+                <h2>Expected Launch: 01/12/2023</h2>
             </div>
         </div>
 
