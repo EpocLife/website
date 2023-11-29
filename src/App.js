@@ -2,6 +2,7 @@ import './styles/App.css';
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
+import PrivacyPolicy from './pages/privacyPolicy';
 import Explanation from './pages/explanation';
 import About from './pages/about';
 import OurIdeas from './pages/ourIdeas';
@@ -19,6 +20,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/explanation" element={<Explanation />} />
         <Route path="/explanation/about" element={<About />} />
         <Route path="/explanation/about/whoarewe" element={<WhoAreWe />} />
@@ -29,6 +31,7 @@ function App() {
         <Route path="/explanation/features/mediums" element={<Mediums />} />
         <Route path="/explanation/features/gateway" element={<Gateway />} />
         <Route path="/explanation/features/verification" element={<Verification />} />
+        
       </Routes>
     </Router>
   );

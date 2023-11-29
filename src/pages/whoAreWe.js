@@ -16,10 +16,6 @@ function WhoAreWe() {
                     <div className="m-3">
                         <Collection title={''} Content={`imageMe`} />
                     </div>
-                    <div className="m-3">
-                        <Collection title={''} Content={`Epoc Exists`} size={2}/>
-                    </div>
-
                 </div>
 
             </div>
