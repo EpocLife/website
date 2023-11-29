@@ -6,7 +6,7 @@ function Home() {
         <div style={{ textAlign: 'center' }}>
             Privacy Policy for Epoc
 
-            Last Updated: [Date]
+            Last Updated: 29/11/2023
 
             1. Introduction:
             Welcome to Epoc. We are committed to protecting your personal information and your right to privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you use our application.
@@ -45,7 +45,7 @@ function Home() {
             We may update this privacy policy from time to time. The updated version will be indicated by an updated "Last Updated" date.
 
             9. Contact Us:
-            If you have questions or comments about this policy, you may email us at [Your Contact Information].
+            If you have questions or comments about this policy, you may email us at inquiries@epoc.life.
         </div>
     );
 }
